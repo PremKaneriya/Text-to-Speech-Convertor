@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: #332C23;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-size: 45px;
+    font-weight: 900;
+    margin-top: -50px;
+    margin-bottom: 10px;
+    color: #9F87AF;
+}
+
+.hero h1 span {
+    color: #B1DDF1;
+}
+
+.hero textarea {
+    width: 600px;
+    height: 250px;
+    background-color:#5b4d64;
+    color: #fff;
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 20px;
+    transition: all ease 0.2s;
+}
+
+.hero textarea::placeholder {
+    font-size: 16px;
+    color: #918d8d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hero textarea:hover {
+    background:#7b5595;
+}
+
+.row {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    background-color: #614344;
+    color: #B1DDF1;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 8px 35px;
+    border-radius: 35px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all ease 0.2s;
+}
+
+button i {
+    font-size: 25px;
+    color: #fff;
+    transition: all ease 0.2s;
+}
+
+.hero button:hover {
+    background-color: #B1DDF1;
+    color: #000;
+    box-shadow: 8px 8px 5px rgba(213, 52, 194, 0.3);
+}
+
+.hero button:hover i {
+    color: #000;
+}
+
+.hero select {
+    flex: 1;
+    color: #fff;
+    background-color: #614344;
+    height: 40px;
+    padding: 0 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 35px;
+}
+
+.hero select {
+    color: #fff;
+}
